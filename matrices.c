@@ -13,7 +13,8 @@ int main ()
     {
         for (int j = 0; j < m; i++)
         {
-            /* code */
+            matrix [i][j] = 0;
+            printf("%d", matrix[i][j]);
         }
         
     }
