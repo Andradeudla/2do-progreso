@@ -9,18 +9,9 @@ int main()
     scanf("%d", &m);
 
     int matrix[n][m];
-
     for (int i = 0; i < n; i++)
-    {
-        printf("\n");
-        for (int j = 0; j < m; i++)
-        {
-            matrix [i][j] = 0;
-            printf("%d", matrix[i][j]);
-        }
-        
-    }
-    
+        for (int j = 0; j < m; j++)
+            matrix[i][j] = (i == j) ? 1 : 0;
 
     return 0;
 }
